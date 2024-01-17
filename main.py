@@ -1,8 +1,10 @@
-import random
-import time
+from time import sleep
+from random import randint
 from datetime import datetime
-for i in range(random.randint(1,15)):
-    a = random.randint(1,10)
+
+for i in range(randint(1,15)):
+    a = randint(1,10)
+    
     if a == 10:
         print("Hello World!")
     elif a == 9:
@@ -15,7 +17,8 @@ for i in range(random.randint(1,15)):
         print("Hello Git!")
     else:
         print("Bay!")
-    time.sleep(1)
+    sleep(1)
+    
 print("Text")
 print("Text 222")
 print(datetime.today())
