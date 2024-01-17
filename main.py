@@ -9,7 +9,6 @@ for i in range(random.randint(1,15)):
     elif a == 8:
         print("Hi James!")
     elif a == 5:
-        print("Git please work!")
         print("Hello, it's United States of America!")
     elif a == 2:
         print("Hello Git!")
@@ -17,5 +16,3 @@ for i in range(random.randint(1,15)):
         print("Bay!")
     time.sleep(1)
 print("Text")
-print("Та что за бред")
-print("HHHHHHH")
