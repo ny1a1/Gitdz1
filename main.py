@@ -1,5 +1,6 @@
 import random
 import time
+from datetime import datetime
 for i in range(random.randint(1,15)):
     a = random.randint(1,10)
     if a == 10:
@@ -17,3 +18,4 @@ for i in range(random.randint(1,15)):
     time.sleep(1)
 print("Text")
 print("Text 222")
+print(datetime.today())
